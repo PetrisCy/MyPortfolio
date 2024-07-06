@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color-scheme: dark;
+  /* background-color: aliceblue; */
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ProfileImage {
+  background: url("../src/assets/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 100px;
+  justify-self: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: 400;
+}
+.section {
+  padding: 6rem 0 2rem;
+}
+.section-title {
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (max-width: 992px) {
+}
+
+.navl a:hover {
+  color: rgba(251, 146, 60, 0.8);
+}
