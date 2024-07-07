@@ -5,14 +5,17 @@ function Links() {
   const scrollToAboutMe = () => {
     event.preventDefault();
     document.getElementById("aboutme").scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
   const scrollToProjects = () => {
     event.preventDefault();
     document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
   const scrollToContact = () => {
     event.preventDefault();
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
 
   const [isOpen, setIsOpen] = useState(false);

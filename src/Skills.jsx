@@ -7,7 +7,7 @@ function Skills() {
         <h1 className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text text-4xl sm:text-5lx lg:text-6xl text-center ">
           About me
         </h1>
-        <p className="text-center mt-5 text-neutral-400  ">
+        <p className="text-center mt-5 text-neutral-400 w-5/6 m-auto ">
           Find out more about me, including my technical skills
         </p>
       </div>
