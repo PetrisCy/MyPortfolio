@@ -66,9 +66,11 @@ function Skills() {
             </p>{" "}
             <p className="border p-3 text-xl text-center">
               Next.js
-              <p className="text-sm text-neutral-400 text-center ">
-                In progress
-              </p>
+              <p className="text-sm text-neutral-400 text-center ">Basics+</p>
+            </p>{" "}
+            <p className="border p-3 text-xl text-center">
+              Typescript
+              <p className="text-sm text-neutral-400 text-center ">Soon</p>
             </p>
           </div>
         </div>
